@@ -1,0 +1,25 @@
+{
+  "name": "ddev-shopware-live-training",
+  "version": "1.0.0",
+  "description": "reveal.js slides for the DDEV & Shopware live training",
+  "main": "index.js",
+  "scripts": {
+    "start": "live-server --port=8080 --open=/",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "ddev",
+    "shopware",
+    "shopware-cli",
+    "training",
+    "revealjs",
+    "presentation"
+  ],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "dependencies": {},
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  }
+}
