@@ -78,6 +78,7 @@ Find me there: <a href="https://discord.com/users/bennypoensgen" target="_blank"
 --
 
 ## Architecture Basics
+<!-- .slide: class="dense" -->
 
 * Note the non-standard versioning: 6.7.15.1 - "Shopware 6" with 7.15.1 designating the major, minor and patch version
 * Based on Symfony 7.4, makes use of message queues, mailer, caching, flysystem etc.
