@@ -515,12 +515,17 @@
     display: block;
 }
 
-/* Media Proxy slide: cap code block height, scroll the rest */
+/* Media Proxy slide: fit the whole config on screen without scrolling */
 /* code.hljs is needed to beat reveal's `html:not(.print-pdf) .reveal .hljs` rule */
 .reveal .media-proxy pre code.hljs {
-    max-height: 250px;
-    overflow-y: auto;
-    font-size: 11pt;
+    max-height: none;
+    font-size: 10pt;
+    line-height: 1.2;
+}
+
+/* Text-heavy slides: slightly smaller bullets to keep clear of the controls */
+.reveal .slides section.dense li {
+    font-size: 0.9em;
 }
 
 /* Title slide: logos side by side.
