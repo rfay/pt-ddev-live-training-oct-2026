@@ -20,10 +20,10 @@ Speaker notes go here.
 
 1. What (and who) is Shopware?
 2. Getting started & Tooling
-2. A simple setup
-3. Shopware Configuration
-4. Media Proxy
-3. A more complex setup
+3. A simple setup
+4. Shopware Configuration
+5. Media Proxy
+6. A more complex setup
 
 Note:
 Speaker notes go here.
@@ -43,15 +43,15 @@ Speaker notes go here.
 
 <img src="images/Schoeppingen.png" width="200" alt="Schöppingen" data-preview-image data-preview-fit="contain" style="float: right; margin: 0 0 0.5em 1em; cursor: zoom-in;">
 
-* Founded 2008 by brothers Sebastian and Stefan Hamann
+* Founded 2000 by brothers Sebastian and Stefan Hamann
 * Based in Schöppingen (a rather small community in the north west of Germany)
 * Runs a subsidiary Shopware US Inc., NYC
 * Privately owned with PayPal holding some 40 %<sup>*</sup>
-* Named as 'visionary' by Gartner in 2005
+* Named a 'Visionary' in the Gartner Magic Quadrant for Digital Commerce (2023, 2025)
 * Revenue (2025) some 75 million € (62 % Germany, 15 % EU, 23 % other)
 * Some 330 employees (2025)
 
-<small>(*) Source: [Michele Matteis on Linkedin](https://www.linkedin.com/posts/michele-mattei_paypal-shopware-share-7386365016003739648-xojn/)</small>
+<small>(*) Source: [Michele Mattei on LinkedIn](https://www.linkedin.com/posts/michele-mattei_paypal-shopware-share-7386365016003739648-xojn/)</small>
 
 --
 
@@ -71,8 +71,8 @@ Speaker notes go here.
 
 <center><a href="https://discord.com/invite/shopware" target="_blank">https://discord.com/invite/shopware</a></center>
 
-<center>                                                                                                                                                                            
-Find me there: <a href="https://discord.com/users/bennypoensgen" target="_blank">@bennypoensgen</a>                                                                          
+<center>
+Find me there: <a href="https://discord.com/users/bennypoensgen" target="_blank">@bennypoensgen</a>
 </center>
 
 --
@@ -89,7 +89,7 @@ Find me there: <a href="https://discord.com/users/bennypoensgen" target="_blank"
 
 ## Community Edition, Paid Plans
 
-* Community Edition available via Github
+* Community Edition available via GitHub
 * Paid plans on three levels (Rise, Evolve, Beyond) adding features (like B2B) and support
 * Register as a 'technical partner' to gain access to paid plan features for plugin and app development
 
@@ -108,9 +108,9 @@ Find me there: <a href="https://discord.com/users/bennypoensgen" target="_blank"
 
 * Use <code>shopware6</code> as DDEV project type
 * Start with either DDEV quickstart guide or use my less-than-5-minutes install (see below)
-* <a href="https://developer.shopware.com/docs/products/tools/cli/" target="_blank">shopware-cli</a> is Shopware's swiss-knife tool
-* supports the development of plugins and apps (and more)
-* comes bundled with DDEV
+* <a href="https://developer.shopware.com/docs/products/tools/cli/" target="_blank">shopware-cli</a> is Shopware's Swiss Army knife
+  * supports the development of plugins and apps (and more)
+  * comes bundled with DDEV
 * Use with <code>ddev shopware-cli ...</code> or in the web container - do not use it natively on your host
 <br>
 <small>
@@ -182,7 +182,7 @@ Similar setups for Apache or other webservers are possible.
 <br>
 <a href="https://github.com/vanWittlaer/swoofy" target="_blank">https://github.com/vanWittlaer/swoofy</a>
 <br><br>
-A more complex setup with Redis, RabbitMQ and ElasticSearch, demonstrating the use of DDEV and a Coolify controlled server setup
+A more complex setup with Redis, RabbitMQ and Elasticsearch, demonstrating the use of DDEV and a Coolify controlled server setup
 </center>
 
 ---
@@ -195,5 +195,5 @@ Benny Poensgen (@vanWittlaer)<br>
 <a href="https://www.poensgen.de" target="_blank">https://www.poensgen.de</a><br>
 Email: benjamin@poensgen.de
 <br><br>
-or get in touch via Shopware's discord channel: @bennypoensgen
+or get in touch via the Shopware Discord server: @bennypoensgen
 </center>
