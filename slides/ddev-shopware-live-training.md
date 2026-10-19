@@ -40,6 +40,7 @@ Speaker notes go here.
 --
 
 ## Who is Shopware AG?
+<!-- .slide: class="dense" -->
 
 <img src="images/Schoeppingen.png" width="200" alt="Schöppingen" data-preview-image data-preview-fit="contain" style="float: right; margin: 0 0 0.5em 1em; cursor: zoom-in;">
 
@@ -48,10 +49,12 @@ Speaker notes go here.
 * Runs a subsidiary Shopware US Inc., NYC
 * Privately owned with PayPal holding some 40 %<sup>*</sup>
 * Named a 'Visionary' in the Gartner Magic Quadrant for Digital Commerce (2023, 2025)
-* Revenue (2025) some 75 million € (62 % Germany, 15 % EU, 23 % other)
+* Revenue (2025) some 75 million € (62 % Germany, 15 % EU, 23 % other)<sup>**</sup>
 * Some 330 employees (2025)
 
-<small>(*) Source: [Michele Mattei on LinkedIn](https://www.linkedin.com/posts/michele-mattei_paypal-shopware-share-7386365016003739648-xojn/)</small>
+<small>(*) Source: [Michele Mattei on LinkedIn](https://www.linkedin.com/posts/michele-mattei_paypal-shopware-share-7386365016003739648-xojn/) 
+<br>
+(**) Source: Annual Report 2025</small>
 
 --
 
@@ -109,16 +112,30 @@ Find me there: <a href="https://discord.com/users/bennypoensgen" target="_blank"
 
 * Use <code>shopware6</code> as DDEV project type
 * Start with either DDEV quickstart guide or use my less-than-5-minutes install (see below)
-* <a href="https://developer.shopware.com/docs/products/tools/cli/" target="_blank">shopware-cli</a> is Shopware's Swiss Army knife
-  * supports the development of plugins and apps (and more)
-  * comes bundled with DDEV
-* Use with <code>ddev shopware-cli ...</code> or in the web container - do not use it natively on your host
 <br>
 <small>
 <a href="https://docs.ddev.com/en/stable/users/quickstart/#shopware" target="_blank">https://docs.ddev.com/en/stable/users/quickstart/#shopware</a>
 <br><br>
 <a href="https://notebook.vanwittlaer.de/ddev-for-shopware/less-than-5-minutes-install-with-ddev-and-symfony-flex" target="_blank">https://notebook.vanwittlaer.de/ddev-for-shopware/less-than-5-minutes-install-with-ddev-and-symfony-flex</a>
 </small>
+
+--
+
+## IDE integration
+
+* PHPStorm: Shopware 6 Toolbox
+* VSCode: Shopware Language Server
+* Symfony Services, Twig Templates, Twig Block Versioning, Icons, Snippets (Translations), Routes, Feature Flags, and more
+
+--
+
+## shopware-cli
+
+* <a href="https://developer.shopware.com/docs/products/tools/cli/" target="_blank">shopware-cli</a> is Shopware's Swiss Army knife
+  * supports the development of plugins and apps (and more)
+  * comes bundled with DDEV
+* Use with <code>ddev shopware-cli ...</code> or in the web container - do not use it natively on your host
+* Admin and storefront watchers: <code>ddev admin watch</code> and <code>ddev storefront-watch</code>
 
 ---
 
