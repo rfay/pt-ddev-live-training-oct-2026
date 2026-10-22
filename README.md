@@ -1,10 +1,14 @@
 # DDEV & Shopware Live Training
 
-reveal.js slides for a hands-on live training on DDEV and Shopware 6 development.
+reveal.js slides for a hands-on live training on DDEV and Shopware 6 development, given by Benny Poensgen on October 21, 2026.
 
 ## 🎯 View the Presentation
 
-**👉 [View Live Presentation](https://YOUR-USERNAME.github.io/ddev-shopware-live-training/)**
+**👉 [View Live Presentation](https://vanwittlaer.github.io/pt-ddev-live-training-oct-2026/)**
+
+**🎬 [Watch the recording on YouTube](https://youtu.be/JjcRapymIX8)**
+
+The demo projects from the training are [sissy-demo](https://github.com/vanWittlaer/sissy-demo) and [swoofy](https://github.com/vanWittlaer/swoofy). For more background, read [Shopware on DDEV: notes from years of client projects](https://ddev.com/blog/shopware-on-ddev/) on the DDEV blog.
 
 ## 🧪 Local Development
 
@@ -15,22 +19,8 @@ npm start
 
 This will start a local server at http://localhost:8080
 
-## 📁 Structure
-
-- `index.html` — reveal.js setup and configuration
-- `slides/ddev-shopware-live-training.md` — the slide content (Markdown)
-- `css/custom.css` — DDEV-branded theme overrides
-- `images/` — images referenced from the slides
-- `.github/workflows/deploy.yml` — GitHub Pages deployment
-
-## ✍️ Writing Slides
-
-- `---` on its own line starts a new horizontal slide
-- `--` on its own line starts a vertical (nested) slide
-- `Note:` starts speaker notes for the current slide (press `S` for speaker view)
-
 ## 📚 Resources
 
 - [reveal.js Documentation](https://revealjs.com/)
-- [DDEV Documentation](https://ddev.readthedocs.io/)
-- [shopware-cli Documentation](https://sw-cli.fos.gg/)
+- [DDEV Documentation](https://docs.ddev.com/)
+- [shopware-cli Documentation](https://developer.shopware.com/docs/products/tools/cli/)
